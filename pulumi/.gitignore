@@ -1,0 +1,22 @@
+# https://github.com/pulumi/pulumi-yaml/blob/main/.gitignore
+.DS_Store
+.idea
+*.swp
+Pulumi.*.yaml
+Pulumi.*.yaml.*
+stack.json
+goreleaser/
+bin/*
+
+# Other cannot be downloaded, as it does not correspond to a real package.
+!pkg/pulumiyaml/testing/test/testdata/other.json
+pkg/pulumiyaml/testing/test/testdata/*.json
+pkg/tests/transpiled_examples/**/tsconfig.json
+
+command-output/
+obj/
+__pycache__/
+node_modules/
+
+id_rsa
+id_rsa.pub

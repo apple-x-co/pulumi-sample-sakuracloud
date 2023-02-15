@@ -1,0 +1,11 @@
+{
+    "name": "SampleSakuraCloud",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^16"
+    },
+    "dependencies": {
+        "@pulumi/pulumi": "^3.0.0",
+        "@sacloud/pulumi_sakuracloud": "^0.6.1"
+    }
+}
